@@ -9,7 +9,6 @@ Algorithms implemented:
 
 - Canonical Genetic Algorithm
 - Canonical Particle Swarm Optimization
-- Canonical Glowworm Swarm Optimization
 - AGD-PSO (proposed hybrid)
 
 Benchmarks:
