@@ -1,0 +1,4 @@
+"Benchmark","Statistic","DF","PValue","Significant"
+"G01",38.9979,2,3.402e-09,TRUE
+"G06",59.1179,2,1.454e-13,TRUE
+"G10",61.8229,2,3.761e-14,TRUE

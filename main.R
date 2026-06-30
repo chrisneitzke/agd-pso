@@ -1,0 +1,23 @@
+POP_SIZE <- 100
+
+MAX_GENERATIONS <- 1000
+
+RUNS <- 31
+
+ELITE_RATE <- 0.10
+
+PM_MIN <- 0.005
+
+PM_MAX <- 0.05
+
+PC <- 0.90
+
+W <- 0.729
+
+C1 <- 1.49445
+
+C2 <- 1.49445
+
+PENALTY_MIN <- 10
+
+PENALTY_MAX <- 1000
