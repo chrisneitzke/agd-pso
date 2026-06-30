@@ -1,22 +1,3 @@
-# AGD-PSO
+# AGD-PSO: Um Algoritmo Híbrido Baseado em Algoritmos Genéticos e Particle Swarm Optimization para Otimização Restrita
 
-Adaptive Genetic Algorithm with Density Feedback and PSO Refinement
-
-This repository contains the implementation developed for the
-Metaheuristics course.
-
-Algorithms implemented:
-
-- Canonical Genetic Algorithm
-- Canonical Particle Swarm Optimization
-- AGD-PSO (proposed hybrid)
-
-Benchmarks:
-
-- G01
-- G06
-- G10
-
-Statistical analysis:
-
-- Kruskal–Wallis
+Problemas de Otimização Restrita (POR) exigem algoritmos que equilibrem qualidade de solução e viabilidade. Embora Algoritmos Genéticos (GA) e Particle Swarm Optimization (PSO) sejam eficazes em cenários contínuos, perdem eficiência em POR severos. Este trabalho propõe o AGD-PSO (Adaptive Genetic Diversity Particle Swarm Optimization), algoritmo híbrido (GA+PSO) com mutação adaptativa por diversidade populacional e penalização dinâmica para restrições. A abordagem foi validada via framework em R nos benchmarks G01, G06 e G10, confrontando-se com GA e PSO puros em 31 execuções. Foram avaliadas métricas de qualidade, violação, taxa de sucesso, tempo e o teste estatístico de Kruskal-Wallis. O AGD-PSO mostrou-se competitivo: obteve a maior taxa de sucesso no G06 e foi o único a achar soluções factíveis no G10. Conclui-se que a hibridização combinada à mutação adaptativa e penalização dinâmica é uma estratégia promissora para POR.
